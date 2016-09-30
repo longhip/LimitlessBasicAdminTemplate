@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Limitless</title>
+
+    <!-- Global stylesheets -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/core.css" rel="stylesheet" type="text/css">
+    <link href="css/components.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="font/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/blockui.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="js/uniform.min.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+    <script type="text/javascript" src="js/ripple.min.js"></script>
+    <!-- /theme JS files -->
+
+</head>
+
+<body class="navbar-bottom">
+
+    <!-- Page header -->
+    <div class="page-header page-header-inverse bg-indigo">
+
+        <!-- Main navbar -->
+        <div class="navbar navbar-inverse navbar-transparent">
+            <div class="navbar-header">
+                <a class="navbar-brand" href=""><img src="images/logo_light.png" alt=""></a>
+
+                <ul class="nav navbar-nav pull-right visible-xs-block">
+                    <li><a data-toggle="collapse" data-target="#navbar-mobile" class="legitRipple"><i class="icon-grid3"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbar-mobile">
+                <p class="navbar-text"><span class="label bg-success-400">Premium</span></p>
+
+                <ul class="nav navbar-nav">
+                    <li><a href="#" class="legitRipple">Upgrade</a></li>
+                </ul>
+
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown">
+                                <i class="icon-bell2"></i>
+                                <span class="visible-xs-inline-block position-right">Activity</span>
+                                <span class="status-mark border-pink-300"></span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-content">
+                                <div class="dropdown-content-heading">
+                                    Activity
+                                    <ul class="icons-list">
+                                        <li><a href="#"><i class="icon-menu7"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <ul class="media-list dropdown-content-body width-350">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-success-400 btn-rounded btn-icon btn-xs legitRipple"><i class="icon-mention"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            <a href="#">Taylor Swift</a> mentioned you in a post "Angular JS. Tips and tricks"
+                                            <div class="media-annotation">4 minutes ago</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-pink-400 btn-rounded btn-icon btn-xs legitRipple"><i class="icon-paperplane"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            Special offers have been sent to subscribed users by <a href="#">Donna Gordon</a>
+                                            <div class="media-annotation">36 minutes ago</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-blue btn-rounded btn-icon btn-xs legitRipple"><i class="icon-plus3"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            <a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span> branch in <span class="text-semibold">Limitless</span> repository
+                                            <div class="media-annotation">2 hours ago</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-purple-300 btn-rounded btn-icon btn-xs legitRipple"><i class="icon-truck"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            Shipping cost to the Netherlands has been reduced, database updated
+                                            <div class="media-annotation">Feb 8, 11:30</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-warning-400 btn-rounded btn-icon btn-xs legitRipple"><i class="icon-bubble8"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            New review received on <a href="#">Server side integration</a> services
+                                            <div class="media-annotation">Feb 2, 10:20</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#" class="btn bg-teal-400 btn-rounded btn-icon btn-xs legitRipple"><i class="icon-spinner11"></i></a>
+                                        </div>
+
+                                        <div class="media-body">
+                                            <strong>January, 2016</strong> - 1320 new users, 3284 orders, $49,390 revenue
+                                            <div class="media-annotation">Feb 1, 05:46</div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown">
+                                <i class="icon-bubble8"></i>
+                                <span class="visible-xs-inline-block position-right">Messages</span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-content width-350">
+                                <div class="dropdown-content-heading">
+                                    Messages
+                                    <ul class="icons-list">
+                                        <li><a href="#"><i class="icon-menu7"></i></a></li>
+                                    </ul>
+                                </div>
+
+                                <ul class="media-list dropdown-content-body">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <img src="images/face10.jpg" class="img-circle img-sm" alt="">
+                                            <span class="badge bg-danger-400 media-badge">5</span>
+                                        </div>
+
+                                        <div class="media-body">
+                                            <a href="#" class="media-heading">
+                                                <span class="text-semibold">James Alexander</span>
+                                                <span class="media-annotation pull-right">04:58</span>
+                                            </a>
+
+                                            <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <img src="images/face3.jpg" class="img-circle img-sm" alt="">
+                                            <span class="badge bg-danger-400 media-badge">4</span>
+                                        </div>
+
+                                        <div class="media-body">
+                                            <a href="#" class="media-heading">
+                                                <span class="text-semibold">Margo Baker</span>
+                                                <span class="media-annotation pull-right">12:16</span>
+                                            </a>
+
+                                            <span class="text-muted">That was something he was unable to do because...</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left"><img src="images/face24.jpg" class="img-circle img-sm" alt=""></div>
+                                        <div class="media-body">
+                                            <a href="#" class="media-heading">
+                                                <span class="text-semibold">Jeremy Victorino</span>
+                                                <span class="media-annotation pull-right">22:48</span>
+                                            </a>
+
+                                            <span class="text-muted">But that would be extremely strained and suspicious...</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left"><img src="images/face4.jpg" class="img-circle img-sm" alt=""></div>
+                                        <div class="media-body">
+                                            <a href="#" class="media-heading">
+                                                <span class="text-semibold">Beatrix Diaz</span>
+                                                <span class="media-annotation pull-right">Tue</span>
+                                            </a>
+
+                                            <span class="text-muted">What a strenuous career it is that I've chosen...</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="media">
+                                        <div class="media-left"><img src="images/face25.jpg" class="img-circle img-sm" alt=""></div>
+                                        <div class="media-body">
+                                            <a href="#" class="media-heading">
+                                                <span class="text-semibold">Richard Vango</span>
+                                                <span class="media-annotation pull-right">Mon</span>
+                                            </a>
+
+                                            <span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="dropdown dropdown-user">
+                            <a class="dropdown-toggle legitRipple" data-toggle="dropdown">
+                                <img src="images/face11.jpg" alt="">
+                                <span>Victoria</span>
+                                <i class="caret"></i>
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+                                <li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+                                <li><a href="#"><span class="badge bg-blue pull-right">26</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+                                <li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /main navbar -->
+
+        <!-- Second navbar -->
+        <div class="navbar navbar-inverse navbar-transparent" id="navbar-second">
+            <ul class="nav navbar-nav visible-xs-block">
+                <li><a class="text-center collapsed legitRipple" data-toggle="collapse" data-target="#navbar-second-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+            </ul>
+
+            <div class="navbar-collapse collapse" id="navbar-second-toggle">
+                <ul class="nav navbar-nav navbar-nav-material">
+                    <li class="active"><a href="" class="legitRipple">Dashboard</a></li>
+
+                    <li class="dropdown mega-menu mega-menu-wide">
+                        <a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown">Components <span class="caret"></span></a>
+
+                        <div class="dropdown-menu dropdown-content">
+                            <div class="dropdown-content-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <span class="menu-heading underlined">Forms</span>
+                                        <div class="dd-wrapper" id="dd-wrapper-0">
+                                            <div id="dd-header-0" class="dd-header">
+                                                <h6>Back to parent</h6></div>
+                                            <ul class="menu-list has-children dd-menu" tabindex="0" style="overflow: hidden; outline: none;">
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-pencil3"></i> Form components<span class="dd-icon"></span></a>
+                                                    <ul rel="11" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_inputs_basic.html">Basic inputs</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_checkboxes_radios.html">Checkboxes &amp; radios</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_input_groups.html">Input groups</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_controls_extended.html">Extended controls</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_floating_labels.html">Floating labels</a></li>
+                                                        <li class="dd-parent">
+                                                            <a href="#" class="dd-parent-a">Selects<span class="dd-icon"></span></a>
+                                                            <ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_select2.html">Select2 selects</a></li>
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_multiselect.html">Bootstrap multiselect</a></li>
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_select_box_it.html">SelectBoxIt selects</a></li>
+                                                                <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_bootstrap_select.html">Bootstrap selects</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_tag_inputs.html">Tag inputs</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_dual_listboxes.html">Dual Listboxes</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_editable.html">Editable forms</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_validation.html">Validation</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_inputs_grid.html">Inputs grid</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-file-css"></i> JSON forms<span class="dd-icon"></span></a>
+                                                    <ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/alpaca_basic.html">Basic inputs</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/alpaca_advanced.html">Advanced inputs</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/alpaca_controls.html">Controls</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-footprint"></i> Wizards<span class="dd-icon"></span></a>
+                                                    <ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/wizard_steps.html">Steps wizard</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/wizard_form.html">Form wizard</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/wizard_stepy.html">Stepy wizard</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-spell-check"></i> Editors<span class="dd-icon"></span></a>
+                                                    <ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/editor_summernote.html">Summernote editor</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/editor_ckeditor.html">CKEditor</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/editor_wysihtml5.html">WYSIHTML5 editor</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/editor_code.html">Code editor</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-select2"></i> Pickers<span class="dd-icon"></span></a>
+                                                    <ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/picker_date.html">Date &amp; time pickers</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/picker_color.html">Color pickers</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/picker_location.html">Location pickers</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent last">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-insert-template"></i> Form layouts<span class="dd-icon"></span></a>
+                                                    <ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_layout_vertical.html">Vertical form</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/form_layout_horizontal.html">Horizontal form</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="menu-heading underlined">Appearance</span>
+                                        <div class="dd-wrapper" id="dd-wrapper-1">
+                                            <div id="dd-header-1" class="dd-header">
+                                                <h6>Back to parent</h6></div>
+                                            <ul class="menu-list has-children dd-menu" tabindex="1" style="overflow: hidden; outline: none;">
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-grid"></i> Components<span class="dd-icon"></span></a>
+                                                    <ul rel="18" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_modals.html">Modals</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_dropdowns.html">Dropdown menus</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_tabs.html">Tabs component</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_pills.html">Pills component</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_navs.html">Accordion and navs</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_buttons.html">Buttons</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_notifications_pnotify.html">PNotify notifications</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_notifications_others.html">Other notifications</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_popups.html">Tooltips and popovers</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_alerts.html">Alerts</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_pagination.html">Pagination</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_labels.html">Labels and badges</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_loaders.html">Loaders and bars</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_thumbnails.html">Thumbnails</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_page_header.html">Page header</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_breadcrumbs.html">Breadcrumbs</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_media.html">Media objects</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/components_affix.html">Affix and Scrollspy</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-browser"></i> Content panels<span class="dd-icon"></span></a>
+                                                    <ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/panels.html">Panels</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/panels_heading.html">Heading elements</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/panels_footer.html">Footer elements</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/panels_draggable.html">Draggable panels</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-droplets"></i> Content styling<span class="dd-icon"></span></a>
+                                                    <ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/appearance_text_styling.html">Text styling</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/appearance_typography.html">Typography</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/appearance_helpers.html">Helper classes</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/appearance_syntax_highlighter.html">Syntax highlighter</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/appearance_content_grid.html">Grid system</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-gift"></i> Extra components<span class="dd-icon"></span></a>
+                                                    <ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extra_sliders_noui.html">NoUI sliders</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extra_sliders_ion.html">Ion range sliders</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extra_trees.html">Dynamic tree views</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extra_context_menu.html">Context menu</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extra_fab.html">Floating action buttons</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent last">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-wrench3"></i> Tools<span class="dd-icon"></span></a>
+                                                    <ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/tools_session_timeout.html">Session timeout</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/tools_idle_timeout.html">Idle timeout</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="menu-heading underlined">Extensions</span>
+                                        <div class="dd-wrapper" id="dd-wrapper-2">
+                                            <div id="dd-header-2" class="dd-header">
+                                                <h6>Back to parent</h6></div>
+                                            <ul class="menu-list has-children dd-menu" tabindex="2" style="overflow: hidden; outline: none;">
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-puzzle4"></i> Extensions<span class="dd-icon"></span></a>
+                                                    <ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extension_image_cropper.html">Image cropper</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extension_blockui.html">Block UI</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/extension_dnd.html">Drag and drop</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-popout"></i> JQuery UI<span class="dd-icon"></span></a>
+                                                    <ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/jqueryui_interactions.html">Interactions</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/jqueryui_forms.html">Forms</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/jqueryui_components.html">Components</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/jqueryui_sliders.html">Sliders</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/jqueryui_navigation.html">Navigation</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-upload"></i> File uploaders<span class="dd-icon"></span></a>
+                                                    <ul rel="3" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/uploader_plupload.html">Plupload</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/uploader_bootstrap.html">Bootstrap file uploader</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/uploader_dropzone.html">Dropzone</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-calendar3"></i> Event calendars<span class="dd-icon"></span></a>
+                                                    <ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/fullcalendar_views.html">Basic views</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/fullcalendar_styling.html">Event styling</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/fullcalendar_formats.html">Language and time</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/fullcalendar_advanced.html">Advanced usage</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent last">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-sphere"></i> Internationalization<span class="dd-icon"></span></a>
+                                                    <ul rel="6" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_switch_direct.html">Direct translation</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_switch_query.html">Querystring parameter</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_on_init.html">Set language on init</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_after_init.html">Set language after init</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_fallback.html">Language fallback</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/internationalization_callbacks.html">Callbacks</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="menu-heading underlined">Tables</span>
+                                        <div class="dd-wrapper" id="dd-wrapper-3">
+                                            <div id="dd-header-3" class="dd-header">
+                                                <h6>Back to parent</h6></div>
+                                            <ul class="menu-list has-children dd-menu" tabindex="3" style="overflow: hidden; outline: none;">
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-table2"></i> Basic tables<span class="dd-icon"></span></a>
+                                                    <ul rel="5" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_basic.html">Basic examples</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_sizing.html">Table sizing</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_borders.html">Table borders</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_styling.html">Table styling</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_elements.html">Table elements</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-grid7"></i> Data tables<span class="dd-icon"></span></a>
+                                                    <ul rel="6" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_basic.html">Basic initialization</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_styling.html">Basic styling</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_advanced.html">Advanced examples</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_sorting.html">Sorting options</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_api.html">Using API</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_data_sources.html">Data sources</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-alignment-unalign"></i> Data tables extensions<span class="dd-icon"></span></a>
+                                                    <ul rel="10" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_reorder.html">Columns reorder</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_row_reorder.html">Row reorder</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_fixed_columns.html">Fixed columns</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_fixed_header.html">Fixed header</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_autofill.html">Auto fill</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_key_table.html">Key table</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_scroller.html">Scroller</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_select.html">Select</a></li>
+                                                        <li class="dd-parent">
+                                                            <a href="#" class="dd-parent-a">Buttons<span class="dd-icon"></span></a>
+                                                            <ul rel="4" style="margin-right: 0px; margin-top: 0px;">
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_buttons_init.html">Initialization</a></li>
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_buttons_flash.html">Flash buttons</a></li>
+                                                                <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_buttons_print.html">Print buttons</a></li>
+                                                                <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_buttons_html5.html">HTML5 buttons</a></li>
+                                                            </ul>
+                                                        </li>
+
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_extension_colvis.html">Columns visibility</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-file-spreadsheet"></i> Handsontable<span class="dd-icon"></span></a>
+                                                    <ul rel="9" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_basic.html">Basic configuration</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_advanced.html">Advanced setup</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_cols.html">Column features</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_cells.html">Cell features</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_types.html">Basic cell types</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_custom_checks.html">Custom &amp; checkboxes</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_ac_password.html">Autocomplete &amp; password</a></li>
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_search.html">Search</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/handsontable_context.html">Context menu</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dd-parent last">
+                                                    <a href="#" class="dd-parent-a"><i class="icon-versions"></i> Responsive options<span class="dd-icon"></span></a>
+                                                    <ul rel="2" style="margin-right: 0px; margin-top: 0px;">
+                                                        <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/table_responsive.html">Responsive basic tables</a></li>
+                                                        <li class="last"><a href="http://demo.interface.club/limitless/layout_5/LTR/material/datatable_responsive.html">Responsive data tables</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-nav-material navbar-right">
+                    <li>
+                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/changelog.html" class="legitRipple">
+                            <span class="status-mark status-mark-inline border-success-300 position-left"></span> Changelog
+                        </a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle legitRipple" data-toggle="dropdown">
+                            <i class="icon-cog3"></i>
+                            <span class="visible-xs-inline-block position-right">Settings</span>
+                            <span class="caret"></span>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><i class="icon-user-lock"></i> Account security</a></li>
+                            <li><a href="#"><i class="icon-statistics"></i> Analytics</a></li>
+                            <li><a href="#"><i class="icon-accessibility"></i> Accessibility</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="icon-gear"></i> All settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /second navbar -->
+
+
+        <!-- Floating menu -->
+        <ul class="fab-menu fab-menu-top-right" data-fab-toggle="click">
+            <li>
+                <a class="fab-menu-btn btn bg-pink-300 btn-float btn-rounded btn-icon legitRipple">
+                    <i class="fab-icon-open icon-plus3"></i>
+                    <i class="fab-icon-close icon-cross2"></i>
+                </a>
+
+                <ul class="fab-menu-inner">
+                    <li>
+                        <div data-fab-label="Compose email">
+                            <a href="#" class="btn btn-default btn-rounded btn-icon btn-float legitRipple">
+                                <i class="icon-pencil"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-fab-label="Conversations">
+                            <a href="#" class="btn btn-default btn-rounded btn-icon btn-float legitRipple">
+                                <i class="icon-bubbles7"></i>
+                            </a>
+                            <span class="badge bg-primary-400">5</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-fab-label="Chat with Jack">
+                            <a href="#" class="btn bg-pink-400 btn-rounded btn-icon btn-float legitRipple">
+                                <img src="images/face23.jpg" class="img-responsive" alt="">
+                            </a>
+                            <span class="status-mark border-pink-400"></span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- /floating menu -->
+
+    </div>
+    <!-- /page header -->
+
+
+    <!-- Page container -->
+    <div class="page-container" style="min-height:451px">
+
+        <!-- Page content -->
+        <div class="page-content">
+
+            <!-- Main content -->
+            <div class="content-wrapper">
+
+                <!-- Dashboard content -->
+                <div class="row">
+                    <div class="col-lg-8">
+
+                        <!-- Marketing campaigns -->
+                        <div class="panel panel-flat">
+                            <div class="panel-heading">
+                                <h5 class="panel-title">Marketing campaigns<a class="heading-elements-toggle"><i class="icon-more"></i></a></h5>
+                                <div class="heading-elements">
+                                    <span class="label bg-success heading-text">28 active</span>
+                                    <ul class="icons-list">
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i> <span class="caret"></span></a>
+                                            <ul class="dropdown-menu dropdown-menu-right">
+                                                <li><a href="#"><i class="icon-sync"></i> Update data</a></li>
+                                                <li><a href="#"><i class="icon-list-unordered"></i> Detailed log</a></li>
+                                                <li><a href="#"><i class="icon-pie5"></i> Statistics</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#"><i class="icon-cross3"></i> Clear list</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-lg text-nowrap">
+                                    <tbody>
+                                        <tr>
+                                            <td class="col-md-5">
+                                                <div class="media-left">
+                                                    <div id="campaigns-donut"><svg width="42" height="42"><g transform="translate(21,21)"><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M1.1634144591899855e-15,19A19,19 0 0,1 -14.050144241469582,12.790365389381929L-7.025072120734791,6.3951826946909645A9.5,9.5 0 0,0 5.817072295949927e-16,9.5Z" style="fill: rgb(102, 187, 106);"></path></g><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M-14.050144241469582,12.790365389381929A19,19 0 0,1 0.6493373977393208,-18.988900993577726L0.3246686988696604,-9.494450496788863A9.5,9.5 0 0,0 -7.025072120734791,6.3951826946909645Z" style="fill: rgb(149, 117, 205);"></path></g><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M0.6493373977393208,-18.988900993577726A19,19 0 0,1 5.817072295949928e-15,19L2.908536147974964e-15,9.5A9.5,9.5 0 0,0 0.3246686988696604,-9.494450496788863Z" style="fill: rgb(255, 112, 67);"></path></g></g></svg></div>
+                                                </div>
+
+                                                <div class="media-left">
+                                                    <h5 class="text-semibold no-margin">38,289 <small class="text-success text-size-base"><i class="icon-arrow-up12"></i> (+16.2%)</small></h5>
+                                                    <ul class="list-inline list-inline-condensed no-margin">
+                                                        <li>
+                                                            <span class="status-mark border-success"></span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="text-muted">May 12, 12:30 am</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+
+                                            <td class="col-md-5">
+                                                <div class="media-left">
+                                                    <div id="campaign-status-pie"><svg width="42" height="42"><g transform="translate(21,21)"><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M1.1634144591899855e-15,19A19,19 0 0,1 -10.035763324841723,-16.133302652828462L-5.017881662420861,-8.066651326414231A9.5,9.5 0 0,0 5.817072295949927e-16,9.5Z" style="fill: rgb(41, 182, 246);"></path></g><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M-10.035763324841723,-16.133302652828462A19,19 0 0,1 17.35205039879773,-7.739919053684189L8.676025199398865,-3.8699595268420945A9.5,9.5 0 0,0 -5.017881662420861,-8.066651326414231Z" style="fill: rgb(239, 83, 80);"></path></g><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M17.35205039879773,-7.739919053684189A19,19 0 0,1 14.540850859600345,12.229622082421841L7.270425429800173,6.1148110412109205A9.5,9.5 0 0,0 8.676025199398865,-3.8699595268420945Z" style="fill: rgb(129, 199, 132);"></path></g><g class="d3-arc" style="stroke: rgb(255, 255, 255); cursor: pointer;"><path d="M14.540850859600345,12.229622082421841A19,19 0 0,1 5.817072295949928e-15,19L2.908536147974964e-15,9.5A9.5,9.5 0 0,0 7.270425429800173,6.1148110412109205Z" style="fill: rgb(153, 153, 153);"></path></g></g></svg></div>
+                                                </div>
+
+                                                <div class="media-left">
+                                                    <h5 class="text-semibold no-margin">2,458 <small class="text-danger text-size-base"><i class="icon-arrow-down12"></i> (- 4.9%)</small></h5>
+                                                    <ul class="list-inline list-inline-condensed no-margin">
+                                                        <li>
+                                                            <span class="status-mark border-danger"></span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="text-muted">Jun 4, 4:00 am</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+
+                                            <td class="text-right col-md-2">
+                                                <a href="#" class="btn bg-indigo-300 legitRipple"><i class="icon-statistics position-left"></i> View report</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table text-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th>Campaign</th>
+                                            <th class="col-md-2">Client</th>
+                                            <th class="col-md-2">Changes</th>
+                                            <th class="col-md-2">Budget</th>
+                                            <th class="col-md-2">Status</th>
+                                            <th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="active border-double">
+                                            <td colspan="5">Today</td>
+                                            <td class="text-right">
+                                                <span class="progress-meter" id="today-progress" data-progress="30"><svg width="20" height="20"><g transform="translate(10,10)"><g class="progress-meter"><path d="M0,8A8,8 0 1,1 0,-8A8,8 0 1,1 0,8Z" style="fill: rgb(255, 255, 255); stroke: rgb(121, 134, 203); stroke-width: 1.5;"></path><path d="M4.898587196589413e-16,-8A8,8 0 0,1 7.608452130361228,2.472135954999579L0,0Z" style="fill: rgb(121, 134, 203);"></path></g></g></svg></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="media-left media-middle">
+                                                    <a href="#"><img src="images/face17.jpg" class="img-circle img-sm" alt="">
+                                                </div>
+
+                                                <div class="media-body">
+                                                    <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">
+													Sherilyn Mckee
+													<span class="media-annotation pull-right">Mon, 06:38</span>
+												</a>
+
+                                                    <span class="display-block text-muted">Less unicorn a however careless husky...</span>
+                                                </div>
+                                                </li>
+                                                </ul>
+                            </div>
+                        </div>
+                        <!-- /tabs content -->
+
+                    </div>
+                    <!-- /my messages -->
+
+
+                    <!-- Daily financials -->
+                    <div class="panel panel-flat">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">Daily financials<a class="heading-elements-toggle"><i class="icon-more"></i></a></h5>
+                            <div class="heading-elements">
+                                <form class="heading-form" action="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">
+                                    <div class="form-group">
+                                        <label class="checkbox checkbox-inline checkbox-switchery checkbox-right switchery-xs">
+												<input type="checkbox" class="switcher" id="realtime" checked="checked" data-switchery="true" style="display: none;"><span class="switchery switchery-default" style="background-color: rgb(100, 189, 99); border-color: rgb(100, 189, 99); box-shadow: rgb(100, 189, 99) 0px 0px 0px 8px inset; transition: border 0.4s, box-shadow 0.4s, background-color 1.2s;"><small style="left: 14px; background-color: rgb(255, 255, 255); transition: background-color 0.4s, left 0.2s;"></small></span>
+												Realtime
+											</label>
+                                    </div>
+                                </form>
+                                <span class="badge bg-danger-400 heading-text">+86</span>
+                            </div>
+                        </div>
+
+                        <div class="panel-body">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="btn border-pink text-pink btn-flat btn-rounded btn-icon btn-xs legitRipple"><i class="icon-statistics"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Stats for July, 6: 1938 orders, $4220 revenue
+                                        <div class="media-annotation">2 hours ago</div>
+                                    </div>
+
+                                    <div class="media-right media-middle">
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#"><i class="icon-arrow-right13"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="btn border-success text-success btn-flat btn-rounded btn-icon btn-xs legitRipple"><i class="icon-checkmark3"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Invoices <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">#4732</a> and <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">#4734</a> have been paid
+                                        <div class="media-annotation">Dec 18, 18:36</div>
+                                    </div>
+
+                                    <div class="media-right media-middle">
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#"><i class="icon-arrow-right13"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="btn border-primary text-primary btn-flat btn-rounded btn-icon btn-xs legitRipple"><i class="icon-alignment-unalign"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Affiliate commission for June has been paid
+                                        <div class="media-annotation">36 minutes ago</div>
+                                    </div>
+
+                                    <div class="media-right media-middle">
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#"><i class="icon-arrow-right13"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="btn border-warning-400 text-warning-400 btn-flat btn-rounded btn-icon btn-xs legitRipple"><i class="icon-spinner11"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Order <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">#37745</a> from July, 1st has been refunded
+                                        <div class="media-annotation">4 minutes ago</div>
+                                    </div>
+
+                                    <div class="media-right media-middle">
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#"><i class="icon-arrow-right13"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="btn border-teal-400 text-teal btn-flat btn-rounded btn-icon btn-xs legitRipple"><i class="icon-redo2"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Invoice <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">#4769</a> has been sent to <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#">Robert Smith</a>
+                                        <div class="media-annotation">Dec 12, 05:46</div>
+                                    </div>
+
+                                    <div class="media-right media-middle">
+                                        <ul class="icons-list">
+                                            <li>
+                                                <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#"><i class="icon-arrow-right13"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /daily financials -->
+
+                </div>
+            </div>
+            <!-- /dashboard content -->
+
+        </div>
+        <!-- /main content -->
+
+    </div>
+    <!-- /page content -->
+
+    </div>
+    <!-- /page container -->
+
+
+    <!-- Footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom footer">
+        <ul class="nav navbar-nav visible-xs-block">
+            <li><a class="text-center collapsed legitRipple" data-toggle="collapse" data-target="#footer"><i class="icon-circle-up2"></i></a></li>
+        </ul>
+
+        <div class="navbar-collapse collapse" id="footer">
+            <div class="navbar-text">
+                © 2015. <a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="navbar-link">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" class="navbar-link" target="_blank">Eugene Kopyov</a>
+            </div>
+
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="legitRipple">About</a></li>
+                    <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="legitRipple">Terms</a></li>
+                    <li><a href="http://demo.interface.club/limitless/layout_5/LTR/material/index.html#" class="legitRipple">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+
+
+
+    <div class="daterangepicker dropdown-menu ltr opensleft">
+        <div class="calendars">
+            <div class="calendar left">
+                <div class="calendar-table"></div>
+                <div class="daterangepicker_input">
+                    <div class="calendar-time" style="display: none;">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar right">
+                <div class="calendar-table"></div>
+                <div class="daterangepicker_input">
+                    <div class="calendar-time" style="display: none;">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ranges">
+            <ul>
+                <li data-range-key="Today">Today</li>
+                <li data-range-key="Yesterday">Yesterday</li>
+                <li data-range-key="Last 7 Days">Last 7 Days</li>
+                <li data-range-key="Last 30 Days">Last 30 Days</li>
+                <li data-range-key="This Month">This Month</li>
+                <li data-range-key="Last Month">Last Month</li>
+                <li data-range-key="Custom Range">Custom Range</li>
+            </ul>
+            <div class="daterangepicker-inputs">
+                <div class="daterangepicker_input"><span class="start-date-label">Start date:</span><input class="form-control" type="text" name="daterangepicker_start" value=""><i class="icon-calendar3"></i></div>
+                <div class="daterangepicker_input"><span class="end-date-label">End date:</span><input class="form-control" type="text" name="daterangepicker_end" value=""><i class="icon-calendar3"></i></div>
+            </div>
+            <div class="range_inputs"><button class="applyBtn btn btn-sm btn-small bg-slate-600 btn-block legitRipple" disabled="disabled" type="button">Apply</button> <button class="cancelBtn btn btn-sm btn-small btn-default btn-block legitRipple" type="button">Cancel</button></div>
+        </div>
+    </div>
+</body>
+
+</html>
